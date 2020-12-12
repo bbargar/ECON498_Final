@@ -51,6 +51,7 @@ Once you add an attribute dummy variable to your dataset, you can amend your `ru
 
 # Files Explained
 | Name | Description |
+| --- | --- |
 | dataset_json_to_csv2.csv | converts orignial dataset to a .csv dataset |
 | runme.py | Runs a RandomForest model on the new `dataset_json_to_csv2` dataset to determine the accuracy scores and confusion matrix of the new .csv dataset |
 | runme_prediction_csv.csv | Shows the accuracy scores of the runme.py file |
