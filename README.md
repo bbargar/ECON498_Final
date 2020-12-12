@@ -12,9 +12,13 @@ Other codes needed for installation, run this code:
 
 # Code Progression
 To understand this code's progression, it can be simply stated in four steps.
+
 `STEP 1`: Convert all necessary datasets to .csv
+
 `STEP 2`: Run a RandomForest model on the dataset
+
 `STEP 3`: Run a Linear Regression model on the dataset
+
 `STEP 4`: Choose the best trained model, amend and run a prediction model on the dataset to achieve the predicted review count stars.
 
 In order to run this code, convert the `business_sample.json` dataset to a .csv with dummy variables, using the `dataset_json_to_csv2.csv` file. This will create a new .csv dataset with dummy variable attributes that can be used in your models.
