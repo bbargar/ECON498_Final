@@ -37,12 +37,14 @@ Following this, convert `business_no_stars_review.json` dataset to a .csv by run
 Each of these codes are customizable, first starting with converting the datasets to a .csv file. In my code, I only converted a few attributes to dummy variables to usein my model code. These datasets contain many attributes which would help increase your accuracy scores in your prediction. Follow the same logic in my `dataset_json_to_csv2` code. For example, if you wanted to find all business with an attribute Apparel, you could add code which looks something like this:
 ```
 	if cell_categories is not None:
-			cell_apparel = ('Apparel' in cell_categories)
-			if cell_apparel is not None:
-				data_apparel.append(0)
-			else: 
-				data_apparel.append(1)
-		else:
-			data_apparel.append(2)
+		cell_apparel = ('Apparel' in cell_categories)
+		if cell_apparel is not None:
+			data_apparel.append(0)
+		else: 
+			data_apparel.append(1)
+	else:
+		data_apparel.append(2)
 ```
 - Remember to add `data_apparel = []` at the beginning of your code and `'Apparel': data_apparel` in the DataFrame at the end of your code.
+
+Once you add an attribute dummy variable to your dataset, you can amend your `runme.py` and `run_linear_regression` codes by adding that new variable column into your `data = dataset.iloc[].values` code. Your code will then use that column as an addition to run the model. 
