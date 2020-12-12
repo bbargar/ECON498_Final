@@ -48,3 +48,15 @@ Each of these codes are customizable, first starting with converting the dataset
 - Remember to add `data_apparel = []` at the beginning of your code and `'Apparel': data_apparel` in the DataFrame at the end of your code.
 
 Once you add an attribute dummy variable to your dataset, you can amend your `runme.py` and `run_linear_regression` codes by adding that new variable column into your `data = dataset.iloc[].values` code. Your code will then use that column as an addition to run the model. 
+
+# Files Explained
+| Name | Description |
+| dataset_json_to_csv2.csv | converts orignial dataset to a .csv dataset |
+| runme.py | Runs a RandomForest model on the new `dataset_json_to_csv2` dataset to determine the accuracy scores and confusion matrix of the new .csv dataset |
+| runme_prediction_csv.csv | Shows the accuracy scores of the runme.py file |
+| runme_regression_results_text | Shows the combined accuracy scores and confusion matrix of the runme.py file |
+| run_linear_regression.py | Runs a Logistic Regression model on the new `dataset_json_to_csv2` dataset to determine the accuracy scores of the new .csv dataset |
+| linear_regression_prediction_csv.csv | Shows the accuracy scores of the run_linear_regression.py file |
+| dataset_no_stars_to_csv | Converts the dataset which contains no review stars to a .csv file |
+| runme_prediction | Runs a RandomForest model to predict the review stars on the dataset obtained by `dataset_no_stars_to_csv` file |
+
