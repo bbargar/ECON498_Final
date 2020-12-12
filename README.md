@@ -61,3 +61,8 @@ Once you add an attribute dummy variable to your dataset, you can amend your `ru
 | dataset_no_stars_to_csv | Converts the dataset which contains no review stars to a .csv file |
 | runme_prediction | Runs a RandomForest model to predict the review stars on the dataset obtained by `dataset_no_stars_to_csv` file |
 
+# Imperfections
+This code is only scratching the surface of predicting the review count stars for the given datasets. The accuracy scores are low, which can be attributed to the real-life imperfect datasets, and to a smaller number of attributes used to predict. Even though I spent a lot of time debugging this code, I will be first in line to say that it is not perfect. There are likely more bugs which hender this code's performance. I found that this code has the right logic, and will likely work for you.
+
+# Report
+To view my data prediction report, click [here]
