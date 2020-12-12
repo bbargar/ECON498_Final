@@ -1,4 +1,18 @@
 # ECON498_Final
+[Introduction](#Introduction)
+
+[Installation](#Installation)
+
+[Code Progression](#Code-Progression)
+
+[Customization of Code](#Customization-of-Code)
+
+[Files Explained](#Files-Explained)
+
+[Imperfections](#Imperfections)
+
+[Report](#Report)
+
 
 # Introduction
 This code is meant to convert a .json dataset to .csv, then run a RandomForest model and Linear Regression model on the dataset, then use the RandomForest model to predict the review count stars.
@@ -65,4 +79,4 @@ Once you add an attribute dummy variable to your dataset, you can amend your `ru
 This code is only scratching the surface of predicting the review count stars for the given datasets. The accuracy scores are low, which can be attributed to the real-life imperfect datasets, and to a smaller number of attributes used to predict. Even though I spent a lot of time debugging this code, I will be first in line to say that it is not perfect. There are likely more bugs which hender this code's performance. I found that this code has the right logic, and will likely work for you.
 
 # Report
-To view my data prediction report, click [here]
+To view my data prediction report, click [here](https://github.com/bbargar/ECON498_Final/blob/main/report.pdf)
